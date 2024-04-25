@@ -135,7 +135,7 @@ const Portfolio = () => {
             <div className="col-md-12 mb-4">
                 <h3 style={{ fontSize: "2rem", marginBottom: "20px",marginLeft:"13%",marginTop:"-3%" }}>Brightcom Group</h3>
                 <p className="lead" style={{ fontSize: "1.25rem", marginBottom: "20px",marginLeft:"13%",fontFamily:"serif" }}>Full Stack Web Developer</p>
-                <p style={{marginLeft:"13%",fontFamily:"serif"}}>November 3, [start year] - Currently Working</p>
+                <p style={{marginLeft:"13%",fontFamily:"serif"}}>November 3, [2022] - Currently Working</p>
                 <p style={{ fontSize:"18px", lineHeight: "1.6",marginLeft:"13%",width:"1250px",textAlign:"justify",fontWeight:"500",fontFamily:"serif" }}>
                     As a Full Stack Web Developer at Brightcom Group, my role involves developing web applications using various technologies such as React, Node.js, MySQL, Python, Django, HTML, CSS, Bootstrap, and MongoDB. 
                 </p>
