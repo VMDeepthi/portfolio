@@ -1,0 +1,263 @@
+/* Portfolio.css */
+
+/* Header Section */
+.portfolio-header {
+    background-color: #343a40; /* Background color */
+    color: #fff; /* Text color */
+   margin-top: -4%;
+  
+}
+
+.portfolio-header h1 {
+    font-size: 3.5rem; /* Font size for heading */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.portfolio-header p {
+    font-size: 1.5rem; /* Font size for paragraph */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+
+.portfolio-about {
+    background-color: white;/* Background color */
+    padding: 100px 0; /* Padding */
+}
+
+.portfolio-about h2 {
+    font-size: 1.5rem; /* Font size for heading */
+    margin-bottom: 30px; /* Bottom margin */
+    text-align: center; /* Center align heading */
+}
+
+.portfolio-about .container {
+    max-width: 1200px; /* Maximum width for content */
+    margin: 0 auto; /* Center align container */
+}
+
+.portfolio-about p {
+    font-size: 1.25rem; /* Font size for paragraph */
+    line-height: 1.8; /* Line height */
+    text-align: justify; /* Justify text */
+}
+
+
+/* Portfolio.css */
+
+.portfolio-experience {
+    background-color: #fff; /* Background color */
+    color: #343a40; /* Text color */
+    padding: 100px 0; /* Padding */
+}
+
+.portfolio-experience h2 {
+    font-size: 2.5rem; /* Font size for heading */
+    margin-bottom: 50px; /* Bottom margin */
+    text-align: center; /* Center align heading */
+}
+
+.portfolio-experience .experience-item {
+    background-color: #fff; /* Background color for each experience item */
+    padding: 30px; /* Padding */
+    border-radius: 10px; /* Border radius */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow */
+    margin-bottom: 30px; /* Bottom margin */
+}
+
+.portfolio-experience h3 {
+    font-size: 2rem; /* Font size for subheadings */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.portfolio-experience .lead {
+    font-size: 1.25rem; /* Font size for lead text */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.portfolio-experience p {
+    font-size: 1rem; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height */
+}
+
+
+.skills-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    gap: 20px; /* Gap between grid items */
+    justify-content: center; /* Center align items horizontally */
+}
+
+.skill {
+    text-align: center; /* Center align text */
+}
+
+.skill-image {
+    width: 100px; /* Adjust image width */
+    height: 100px; /* Adjust image height */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+
+/* Contact Section */
+.portfolio-contact {
+  
+    padding: 100px 0; /* Padding */
+}
+
+.portfolio-contact h2 {
+    font-size: 3rem; /* Font size for heading */
+    margin-bottom: 30px; /* Bottom margin */
+}
+
+.portfolio-contact .contact-info {
+    margin-bottom: 30px; /* Bottom margin for contact info */
+}
+
+.portfolio-contact .contact-info p {
+    font-size: 1.25rem; /* Font size for contact info */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+.portfolio-contact .contact-info a {
+    color: #343a40; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.25rem; /* Font size for links */
+    margin-right: 10px; /* Right margin */
+}
+
+.portfolio-contact .contact-info a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Experience Section */
+.portfolio-experience {
+    background-color: #fff; /* Background color */
+    padding: 100px 0; /* Padding */
+}
+
+.portfolio-experience h2 {
+    font-size: 3rem; /* Font size for heading */
+    margin-bottom: 30px; /* Bottom margin */
+    
+}
+
+.portfolio-experience .experience-item {
+    margin-bottom: 50px; /* Bottom margin for each experience item */
+    font-size: 12px;
+   
+}
+
+.portfolio-experience .experience-item h3 {
+    font-size: 2rem; /* Font size for sub-heading */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.portfolio-experience .experience-item p {
+    font-size: 1.25rem; /* Font size for paragraph */
+    line-height: 1.8; /* Line height */
+}
+
+/* Footer Section */
+.portfolio-footer {
+    background-color:#343a40; /* Background color */
+    color: #fff; /* Text color */
+   
+   
+   
+}
+
+.portfolio-footer p {
+    font-size: 1.25rem; /* Font size for paragraph */
+    margin: 0; /* Remove default margin */
+}
+
+
+/* Portfolio.css */
+.portfolio-navbar {
+    background-color: #343a40; /* Navbar background color */
+    padding: 15px 0; /* Vertical padding */
+    position: fixed; /* Fix navbar position */
+    top: 0; /* Align navbar to the top */
+    left: 0; /* Align navbar to the left */
+    width: 150px; /* Set the width of the navbar */
+    height: 100vh; /* Set the height of the navbar to full viewport height */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: flex-start; /* Align items to the top */
+    z-index: 1000; /* Ensure navbar is above other content */
+    font-weight: bold;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Border line below profile image */
+}
+
+.profile-image {
+    width: 100px; /* Adjust image width */
+    height: 100px; /* Adjust image height */
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px; /* Margin bottom */
+}
+
+.profile-name {
+    color: #ffffff; /* Profile name text color */
+    margin: 0; /* Remove default margin */
+}
+
+.navbar-nav {
+    width: 100%; /* Full width for navbar links */
+    padding: 0; /* Remove default padding */
+    margin-top: 20px; /* Top margin for links */
+}
+
+.nav-item {
+    width: 100%; /* Full width for each link */
+}
+
+.nav-link {
+    color: #ffffff; /* Link text color */
+    font-size: 1.1rem; /* Link font size */
+    padding: 10px 20px; /* Padding for each link */
+    display: block; /* Display links as blocks */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Background color on hover */
+    border: 2px solid whitesmoke;
+    border-radius: 40px;
+}
+
+
+/* Portfolio.css */
+.profile-image {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Bottom margin to create space between image and links */
+    border-radius: 80%;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: -20px;
+    justify-items: center;
+    margin-left: 20%;
+}
+
+.contact-item {
+    width: 100%;
+}
